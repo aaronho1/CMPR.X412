@@ -26,6 +26,7 @@ public class FirstJavaFile {
 
 		// Here you write the complete code for exercise# 2
 		public static void excercise_1_2() {
+			//1. Run the following code and observe the output.
 			System.out.println("Hello Java World");
 			
 			//2. Now change the code so that it displays Hello in one line, and Java World in another line.
@@ -36,7 +37,7 @@ public class FirstJavaFile {
 
 		// Here you write the complete code for exercise# 4
 		public static void excercise_1_3() {
-			// HELLO
+			// Big HELLO
 			
 			System.out.println("***       ***     ********    ***        ***           ***");	
 			System.out.println("***       ***     ***         ***        ***        ***   ***");		
@@ -50,6 +51,8 @@ public class FirstJavaFile {
 
 		// Here you write the complete code for exercise# 5
 		public static void excercise_1_4() {
+			//Box
+			
 			System.out.println("--------------------");
 			System.out.println("|                  |");
 			System.out.println("|                  |");
@@ -71,7 +74,6 @@ public class FirstJavaFile {
 			excercise_1_2(); 
 			excercise_1_3(); 
 			excercise_1_4(); 
-			////add as many as you need
 		}
 
 }
