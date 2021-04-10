@@ -3,8 +3,10 @@
  */
 
 /**
- * @author AaronHo
- *
+ * @author Aaron Ho
+ * aaronho1
+ * CMPR.X412.(827) Java Programming for Beginners
+ * Homework 1 
  */
 import java.util.Scanner; 
 public class FirstJavaFile {
@@ -16,7 +18,7 @@ public class FirstJavaFile {
 			System.out.println("I completed all questions and got 90% right in first try");
 		}
 
-		// Here you write the complete code for exercise# 2
+		// Here you write the complete code for exercise# 1
 		public static void excercise_1_1() {
 			// For homework#1, this exercise is for you to do at home, there is not submission needed 
 			// You could say like this:
@@ -35,7 +37,7 @@ public class FirstJavaFile {
 			
 		}
 
-		// Here you write the complete code for exercise# 4
+		// Here you write the complete code for exercise# 3
 		public static void excercise_1_3() {
 			// Big HELLO
 			
@@ -49,7 +51,7 @@ public class FirstJavaFile {
 			
 		}
 
-		// Here you write the complete code for exercise# 5
+		// Here you write the complete code for exercise# 4
 		public static void excercise_1_4() {
 			//Box
 			
@@ -69,7 +71,7 @@ public class FirstJavaFile {
 		public static void main(String[] args) {
 
 			// now call these methods
-			excercise_1_0(); 
+			excercise_1_0();
 			excercise_1_1(); 
 			excercise_1_2(); 
 			excercise_1_3(); 
