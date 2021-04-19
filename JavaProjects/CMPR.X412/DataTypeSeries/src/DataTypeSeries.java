@@ -97,18 +97,18 @@ public class DataTypeSeries {
 			System.out.println();
 
 			//Ask user for the values for these variables and display them instead of using the hardcoded name like Bill Clinton Harlem
-			System.out.print("Enter the First Name: ");
+			System.out.print("Please enter your first name: ");
 			firstName = readInput.next();
-			System.out.print("Enter the Last Name: ");
+			System.out.print("Please enter your last name: ");
 			lastName = readInput.next();
-			System.out.print("Enter the City: ");
+			System.out.print("Please enter your city: ");
 			city = readInput.next();
-			System.out.print("Enter the Zip: ");
+			System.out.print("Please enter your zip code: ");
 			zip = readInput.nextInt();
 			System.out.println();
 
 			//Add a column for zip code as well
-			System.out.printf("First Name \tLast Name\tCity    \tZip\n");
+			System.out.printf("First Name \tLast Name\tCity    \tZip Code\n");
 			System.out.printf("-----------\t---------\t---     \t----\n");
 			System.out.printf("%s         \t%s       \t%s     \t%d\n",firstName,lastName,city,zip);
 
