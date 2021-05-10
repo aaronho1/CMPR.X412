@@ -1,0 +1,30 @@
+So, there are two questions: 
+a) How do you supply these arguments to your program, and 
+b) How do you process these arguments in your program
+
+a) You can supply input parameters to your application before your 
+program starts by running through the command window in Windows or through the
+terminal window in MAC. You can first compile your java program by first typing
+'javac' followed by your class name. To run your java program, you will type 'java'
+followed by the class name and then followed by your input parameters separated by a space.
+These parameters will be stored within the args parameter in your main method. They will be 
+parsed by space by default. For example, typing 'java FirstProgram Hello World! will parse
+the 'Hello World!' input into args[0] = Hello and args[1] = World!.Be sure when you are compiling
+and running your program, you are doing so in the correct directory of the class file in the command
+prompt.
+
+Within editors such as Eclipse, you can edit the Properties settings of the class or enable the program
+to run with configurations. In Eclipse, go to the Properties of the class that you are running and select 
+Run/Debug Settings. By creating or editing an existing launch configuration setting and then going to the 
+Arguments tab, you can set the input parameters that you would like to pass as arguments into Main. Run with
+configurations allows you to do the same thing and you can configure your launch settings with the input parameters
+that you want to pass before the program runs. Like running it from the command prompt, the parameters will 
+parsed and stored in the args parameter in your main method where you can call the args array to return the input
+parameters that you want. 
+
+b)You can process these arguments in your program by just calling args parameter as any other array type variable.
+By calling args[] with the appropriate index, you can get the arguments in which you have passed as input parameters. 
+Those values can be then used to for functions such as database access and user security access.For I/O type parameters, with the 
+appropriate placement of the input files, the names of the input and output files can be defined as arguments in the program. From there, you 
+can use the File and FileReader classes to process those files, and instantiate the Scanner or BufferedReader + StringTokenizer/StreamTokenizer 
+classes to read the files. 
