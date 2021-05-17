@@ -1,3 +1,4 @@
+package testproject;
 
 //Import exception and scanner classes
 import java.util.InputMismatchException;
